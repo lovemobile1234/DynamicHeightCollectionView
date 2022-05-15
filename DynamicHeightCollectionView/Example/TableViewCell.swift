@@ -9,7 +9,8 @@
 import UIKit
 
 class TableViewCell: UITableViewCell {
-    @IBOutlet weak var collectionView: UICollectionView!
+    
+    @IBOutlet weak var collectionView: DynamicHeightCollectionView!
     var arr = [String]()
     
     func configure(with arr: [String]) {
